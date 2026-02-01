@@ -59,18 +59,21 @@ https://github.com/your-username/educase-popx-app
 
 ## Project Structure
 
+```text
 src/
 ├── pages/
-│ ├── HomeLanding.jsx
-│ ├── RegisterUser.jsx
-│ ├── UserLogin.jsx
-│ └── Profile.jsx
+│   ├── HomeLanding.jsx
+│   ├── RegisterUser.jsx
+│   ├── UserLogin.jsx
+│   └── Profile.jsx
 ├── components/
-│ └── UserProfileCard.jsx
+│   └── UserProfileCard.jsx
 ├── Styles/
-│ ├── Landing.css
-│ ├── Signup.css
-│ ├── Login.css
-│ └── ProfileCard.css
+│   ├── Landing.css
+│   ├── Signup.css
+│   ├── Login.css
+│   └── ProfileCard.css
 ├── App.jsx
 └── main.jsx
+```
+
