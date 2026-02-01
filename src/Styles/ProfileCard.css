@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Lato:wght@300;400;600;700&display=swap");
+
+.profile-box {
+  width: 320px;
+  min-height: 85vh;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.account-settings {
+  height: 48px;
+  padding: 0 16px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  background: #faf9ff;
+  border-bottom: 1px solid #eee;
+}
+
+.second-part {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background: #fcfcfd;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ece7ff;
+}
+
+.profile-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.profile-email {
+  font-size: 12px;
+  color: #777;
+  margin-top: 2px;
+  font-family: "Lato", sans-serif;
+}
+
+.profile-desc {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #cfcfcf,
+    transparent
+  );
+  margin: 16px -16px;
+}
+
+.second-part::after {
+  content: "";
+  border-top: 1px dashed #c2c2c2;
+  margin: auto -16px 12px;
+}
